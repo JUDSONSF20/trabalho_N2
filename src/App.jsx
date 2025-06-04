@@ -23,7 +23,7 @@ function App() {
           onChange={(_, newValue) => setTab(newValue)}
           centered
         >
-          <Tab label="Cadastro de Usuário" />
+          <Tab label="Cadastro de novo Usuário" />
           <Tab label="Usuários Cadastrados" />
         </Tabs>
 
