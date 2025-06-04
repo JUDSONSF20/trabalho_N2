@@ -27,7 +27,7 @@ const Cadastro = () => {
 
     salvarUsuario(formData);
     setFormData({ nome: '', email: '', telefone: '' });
-    alert('Novo Usuário cadastrado com sucesso!');
+    alert('Usuário cadastrado com sucesso!');
   };
 
   return (
