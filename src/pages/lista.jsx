@@ -21,7 +21,7 @@ const Lista = () => {
   }, []);
 
   const handleLimpar = () => {
-    const confirmacao = confirm('Vai mesmo excluir todos os usuários?');
+    const confirmacao = confirm('Tem certeza que deseja excluir todos os usuários?');
     if (confirmacao) {
       limparUsuarios();
       setUsuarios([]);
